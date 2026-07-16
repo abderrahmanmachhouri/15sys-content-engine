@@ -1,0 +1,12 @@
+# Node / Next.js
+frontend/node_modules/
+frontend/.next/
+
+# Python / FastAPI
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+
+# Variables d'environnement (jamais commit les secrets)
+.env
+**/.env
