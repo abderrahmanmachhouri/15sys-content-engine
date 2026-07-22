@@ -1,12 +1,28 @@
-# Node / Next.js
+# ─── Node / Next.js ──────────────────────────
 frontend/node_modules/
 frontend/.next/
+frontend/out/
 
-# Python / FastAPI
+# ─── Python / FastAPI ────────────────────────
 backend/venv/
-backend/__pycache__/
-backend/*.pyc
+backend/**/__pycache__/
+backend/**/*.py[cod]
+backend/**/$py.class
+backend/**/*.so
 
-# Variables d'environnement
+# ─── Variables d'environnement ───────────────
 .env
 **/.env
+
+# ─── IDE ─────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ─── OS ──────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── Logs ────────────────────────────────────
+*.log
